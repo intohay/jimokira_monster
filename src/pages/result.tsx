@@ -8,7 +8,7 @@ export default function Result() {
   const totalNum = parseInt(total ?? "0", 10);
 
   const tweetText = encodeURIComponent(
-    `じもきらモンスター 結果: ${scoreNum}/${totalNum} 正解! #じもきらモンスター`
+    `じもきらモンスター 結果: ${scoreNum}/${totalNum} 正解!\n#じもきらモンスター\nhttps://jimokira-monster.vercel.app/`
   );
   const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}`;
 
